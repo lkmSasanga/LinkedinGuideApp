@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="32sp"
+    android:paddingTop="30sp">
+
+    <LinearLayout
+        android:id="@+id/scrollView1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="28dp">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Write a Headline That Rocks"
+            android:textAlignment="center"
+            android:paddingRight="25sp"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="4sp"
+            android:textAlignment="textStart"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Your headline doesn’t have to be your job title and company—in fact, especially if you’re looking for jobs, it shouldn’t be.\nInstead, use that space to succinctly showcase your specialty, value proposition, or your “so what?” \nThe more specific you can be about what sets you apart from the competition, the better.
+                                \n\n\tEx:\n\tWeb Developer at Jobscan | Full Stack Engineer |\n\tFront End Specialist | HTML5, CSS3, Bootstrap, \n\tJQuery, PHP\n
+                                "
+            android:paddingLeft="0sp"
+            android:paddingRight="20sp"
+            android:paddingTop="20sp"
+            android:layout_margin="0dp"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="4sp"
+            android:textAlignment="textStart"
+            android:fontFamily="sans-serif-condensed-medium"
+
+            android:text="Examples for Job Seekers"
+            android:paddingLeft="0sp"
+            android:paddingRight="20sp"
+            android:paddingTop="30sp"
+            android:layout_margin="0dp"
+            android:textSize="16sp"
+            />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/headlines"
+            android:layout_marginRight="20sp"
+            android:layout_marginLeft="0sp"
+            android:paddingBottom="50sp"
+
+
+            />
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

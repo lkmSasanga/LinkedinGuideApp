@@ -25,14 +25,14 @@ public class MainActivity extends AppCompatActivity {
         tips.add("2. Get a Custom URL");
         tips.add("3. Choose a Great Photo");
         tips.add("4. Write a Headline That Rocks");
-        tips.add("6. Use Your Target Job Descriptions to Your Advantage");
-        tips.add("7. Don’t Waste the Summary Space");
-        tips.add("8. Use Numbers Right Up Front");
-        tips.add("9. Be Warm and Welcoming");
-        tips.add("10. Avoid Buzzwords Like the Plague");
-        tips.add("11. Treat Your Profile Like Your Resume");
-        tips.add("12. But Use the First Person");
-        tips.add("13. Get Personal");
+        tips.add("5. Use Your Target Job Descriptions to Your Advantage");
+        tips.add("6. Don’t Waste the Summary Space");
+        tips.add("7. Use Numbers Right Up Front");
+        tips.add("8. Be Warm and Welcoming");
+        tips.add("9. Avoid Buzzwords Like the Plague");
+        tips.add("10. Treat Your Profile Like Your Resume");
+        tips.add("11. But Use the First Person");
+        tips.add("12. Get Personal");
 
 
 
@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(intent2);
                         break;
                     case 3:
-                        Intent intent3 = new Intent(getApplicationContext(), activity4.class);
+                        Intent intent3 = new Intent(getApplicationContext(), activity4new.class);
                         startActivity(intent3);
                         break;
 
