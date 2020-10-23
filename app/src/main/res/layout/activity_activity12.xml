@@ -16,8 +16,7 @@
             android:id="@+id/textView1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
-            android:text="Use Your Target Job Descriptions to Your Advantage"
+            android:text="Get Personal"
             android:textAlignment="center"
             android:paddingRight="25sp"
             android:textSize="20sp"
@@ -30,11 +29,8 @@
             android:lineSpacingExtra="4sp"
             android:textAlignment="textStart"
             android:fontFamily="sans-serif-condensed-medium"
-            android:text="Take a look at the job descriptions of the positions you’re after, and dump them into a word cloud tool like Wordle.\n\nSee those words that stand out?\n\nThey’re likely what recruiters are searching for when they’re looking for people like you.\n\nMake sure those words and phrases are sprinkled throughout your summary and experience.
-
-
-                                "
-            android:paddingLeft="0sp"
+            android:text="“Your profile is not a resume or CV.\n\nWrite as if you are having a conversation with someone.\n\nInject your personality.\n\nLet people know your values and passions.\n\nIn your summary, discuss what you do outside of work.\n\nYou want people to want to know you.” \n -Forbes"
+            android:paddingLeft="1sp"
             android:paddingRight="20sp"
             android:paddingTop="20sp"
             android:layout_margin="0dp"

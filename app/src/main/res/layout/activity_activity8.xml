@@ -1,45 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".activity8">
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="32sp"
+    android:paddingTop="30sp">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginEnd="32dp"
-        android:text="Get a Custom URL"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:id="@+id/scrollView1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="28dp">
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="22dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="420dp"
-        android:fontFamily="sans-serif-condensed-medium"
-        android:lineSpacingExtra="4sp"
-        android:text="It’s much easier to publicize your profile with a customized URL (ideally linkedin.com/yourname), rather than the clunky combination of numbers that LinkedIn automatically assigns when you sign up. How to get one? On the Edit Profile screen, at the bottom of the gray window that shows your basic information, you’ll see a Public Profile URL. Click “Edit” next to the URL, and specify what you’d like your address to be. When you’re finished, click Set Custom URL."
-        android:textAlignment="textStart"
-        android:textSize="16sp"
-        android:typeface="normal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Be Warm and Welcoming"
+            android:textAlignment="center"
+            android:paddingRight="25sp"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="4sp"
+            android:textAlignment="textStart"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="“The summary section is your primo opportunity to showcase the good stuff about you, with your target audience in mind.\n\nGive ’em a little chance to get to know you.\n\nSo what do you think the first impression is going to be if you craft your summary like some long, pompous speech? Or worse, craft it in the third person?\n\nThey’re going to think you’re pretentious.\n\nAnd it’s going to be hard for that reviewer to get a feel for your personality and style.\n\nBe you here. Keep the brand message in line with all of your other professional marketing materials, but realize that LinkedIn is a platform designed for interaction.”\t\tJobJenny
+                                "
+            android:paddingLeft="0sp"
+            android:paddingRight="20sp"
+            android:paddingTop="20sp"
+            android:layout_margin="0dp"
+            android:textSize="16sp"
+            />
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+
+
+
+</ScrollView>

@@ -31,7 +31,7 @@
             android:textAlignment="textStart"
             android:fontFamily="sans-serif-condensed-medium"
             android:text="Your headline doesn’t have to be your job title and company—in fact, especially if you’re looking for jobs, it shouldn’t be.\nInstead, use that space to succinctly showcase your specialty, value proposition, or your “so what?” \nThe more specific you can be about what sets you apart from the competition, the better.
-                                \n\n\tEx:\n\tWeb Developer at Jobscan | Full Stack Engineer |\n\tFront End Specialist | HTML5, CSS3, Bootstrap, \n\tJQuery, PHP\n
+                                \n\n\tEx:\n\tWeb Developer at Jobscan | Full Stack Engineer |Front End Specialist | HTML5, CSS3, Bootstrap, JQuery, PHP\n
                                 "
             android:paddingLeft="0sp"
             android:paddingRight="20sp"

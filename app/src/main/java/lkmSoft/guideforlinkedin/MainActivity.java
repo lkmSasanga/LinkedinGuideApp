@@ -80,9 +80,31 @@ public class MainActivity extends AppCompatActivity {
                         break;
 
                     case 7:
-                        Intent intent7 = new Intent(getApplicationContext(), activity7.class);
+                        Intent intent7 = new Intent(getApplicationContext(), activity8.class);
                         startActivity(intent7);
                         break;
+                    case 8:
+                        Intent intent8 = new Intent(getApplicationContext(), activity9.class);
+                        startActivity(intent8);
+                        break;
+
+                    case 9:
+                        Intent intent9 = new Intent(getApplicationContext(), activity10.class);
+                        startActivity(intent9);
+                        break;
+
+                    case 10:
+                        Intent intent10 = new Intent(getApplicationContext(), activity11.class);
+                        startActivity(intent10);
+                        break;
+
+                    case 11:
+                        Intent intent11 = new Intent(getApplicationContext(), activity12.class);
+                        startActivity(intent11);
+                        break;
+
+
+
 
 
                 }

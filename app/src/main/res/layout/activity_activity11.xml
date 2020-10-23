@@ -16,8 +16,7 @@
             android:id="@+id/textView1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
-            android:text="Use Your Target Job Descriptions to Your Advantage"
+            android:text="But Use the First Person"
             android:textAlignment="center"
             android:paddingRight="25sp"
             android:textSize="20sp"
@@ -30,11 +29,8 @@
             android:lineSpacingExtra="4sp"
             android:textAlignment="textStart"
             android:fontFamily="sans-serif-condensed-medium"
-            android:text="Take a look at the job descriptions of the positions you’re after, and dump them into a word cloud tool like Wordle.\n\nSee those words that stand out?\n\nThey’re likely what recruiters are searching for when they’re looking for people like you.\n\nMake sure those words and phrases are sprinkled throughout your summary and experience.
-
-
-                                "
-            android:paddingLeft="0sp"
+            android:text="You shouldn’t use the first person on your resume, but it’s actually fine to do so on LinkedIn (think “I’m a passionate development officer who raised $400,000 for cancer charities last year,” not (“Jackie Stevens is a passionate development officer...”)."
+            android:paddingLeft="1sp"
             android:paddingRight="20sp"
             android:paddingTop="20sp"
             android:layout_margin="0dp"
